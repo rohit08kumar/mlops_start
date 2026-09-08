@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MLflow tracking and artifacts
+mlruns/
+mlartifacts/
+*.db
+mlflow.db
+
+# Temporary test files
+sample.json

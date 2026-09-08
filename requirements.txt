@@ -1,0 +1,16 @@
+# --- Core ML & Computation ---
+numpy>=1.26.4
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# --- Experiment Tracking & Metadata ---
+mlflow>=2.10.0
+
+# --- Inference API & Data Validation ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+
+# --- Testing & Quality Gates ---
+pytest>=8.0.0
+httpx>=0.27.0
